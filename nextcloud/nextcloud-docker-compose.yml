@@ -16,7 +16,6 @@ services:
       SKIP_DOMAIN_VALIDATION: "true"
       NEXTCLOUD_DATADIR: "/mnt/data/nextcloud"
 
-
 volumes: # If you want to store the data on a different drive, see https://github.com/nextcloud/all-in-one#how-to-store-the-filesinstallation-on-a-separate-drive
   nextcloud_aio_mastercontainer:
     name: nextcloud_aio_mastercontainer
